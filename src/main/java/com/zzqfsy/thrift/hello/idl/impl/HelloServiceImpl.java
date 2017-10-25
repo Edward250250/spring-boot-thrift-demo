@@ -32,6 +32,11 @@ public class HelloServiceImpl implements HelloService.Iface{
     }
 
     @Override
+    public void HelloOneway() throws TException {
+        logger.info("HelloOneway:");
+    }
+
+    @Override
     public String HelloNull() throws TException {
         logger.info("HelloNull:");
         return "sucess";

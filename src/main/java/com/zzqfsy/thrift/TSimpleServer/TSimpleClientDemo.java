@@ -24,9 +24,11 @@ public class TSimpleClientDemo {
             transport.open();
 
             System.out.println(client.HelloString("Neo3"));
+            client.HelloOneway();
             System.out.println(client.HelloBoolean(true));
             System.out.println(client.HelloInt(2));
             System.out.println(client.HelloNull());
+
             client.HelloVoid();
             transport.close();
 

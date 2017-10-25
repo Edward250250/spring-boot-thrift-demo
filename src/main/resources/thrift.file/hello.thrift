@@ -10,6 +10,8 @@ service HelloService{
 
     void HelloVoid()
 
+    oneway void HelloOneway()
+
     string HelloNull()
 
 }
