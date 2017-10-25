@@ -1,7 +1,7 @@
-#spring-boot-thrift-demo
+# spring-boot-thrift-demo
 include components: TSimpleServer,TThreadPoolServer,TNonblockingServer,THsHaServer
 
-##bulid
+## bulid
 ``` 
 gradle build
 ```
